@@ -7,7 +7,8 @@ namespace Lab1
             bool answer = false;
 
             // code here
-
+            answer = d>0
+ 
             // end
 
             return answer;
@@ -17,6 +18,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
+            
 
             // end
 
