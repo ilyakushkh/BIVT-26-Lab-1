@@ -20,7 +20,7 @@ namespace Lab1
             // code here
             if (n % 2 == 0)
             {
-                answer = true;
+                answer = true
             }
 
             // end
