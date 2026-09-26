@@ -18,7 +18,10 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            
+            if (n % 2 == 0)
+            {
+                answer = true;
+            }
 
             // end
 
@@ -29,6 +32,15 @@ namespace Lab1
             int answer = 0;
 
             // code here
+            if (a > b)
+            {
+                answer = a;
+            }
+            else (a < b)
+            {
+                answer = b
+            }
+    
 
             // end
 
@@ -39,6 +51,7 @@ namespace Lab1
             double answer = 0;
 
             // code here
+            answer = (Math.Ads(d) < Math.Ads(f)) ? d : f;
 
             // end
 
@@ -49,6 +62,10 @@ namespace Lab1
             double answer = 0;
 
             // code here
+            answer =  (Mach.Ads(x) > 1) ? 1 : x;
+            
+                
+            
 
             // end
 
@@ -59,6 +76,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
+            answer = Math.Ads(x * x * y * y - r * r) <= 1e-4;
 
             // end
 
@@ -70,6 +88,14 @@ namespace Lab1
             bool answer = false;
 
             // code here
+            int s = n * n;
+            if (s - n > 2 * n)
+            {
+                if (n % 2 == 0)
+                {
+                    answer = true;
+                }
+            }
 
             // end
 
@@ -80,6 +106,10 @@ namespace Lab1
             bool answer = false;
 
             // code here
+            if (L / 10 <= 3 && T + M >= 5 && M % 2 == 0)
+            {
+                answer = true;
+            }
 
             // end
 
